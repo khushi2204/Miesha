@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* index.css */
+.button-custom {
+  padding: 0.5rem 0.75rem; /* Adjust padding as needed (top-bottom | left-right) */
+  margin: 0; 
+  background-color: #7b5f3f; /* Brown color */
+  padding: 10px 20px; /* Padding */
+  color: white; /* Text color */
+  font-weight: bold; /* Bold text */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2); /* Shadow */
+  transition: background-color 0.3s ease; /* Transition for hover effect */
+}
+.bg-customGold {
+  background-color: #d4af37; /* Customize this as needed */
+}
+
+.text-customGold {
+  color: #d4af37; /* Customize this as needed */
+}
+
+.hover\:bg-customGold-dark:hover {
+  background-color: #b8972e; /* Customize this as needed */
+}
+
+.hover\:text-customGold-dark:hover {
+  color: #b8972e; /* Customize this as needed */
+}
